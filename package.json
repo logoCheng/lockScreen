@@ -1,0 +1,17 @@
+{
+  "name": "start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pack": "electron-packager ./ 锁屏 --platform=win32 --out=./dist --arch=x64 --app-version=1.0.1 --ignore=node_modules --icon=./icon.ico --overweite" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.3",
+    "electron-packager": "^14.1.1"
+  }
+}
